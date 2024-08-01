@@ -1,7 +1,5 @@
 package cache;
 
-ALOOOOO?
-
 import java.util.Map;
 
 import repository.IDao;
@@ -15,6 +13,7 @@ implements IDao<EntityType, IdType>
 	 * en memoria.
 	 */
 	protected Map<IdType, EntityType> cache;
+	private int diasContados;
 
 
 	public AbstractCacheDao() {
